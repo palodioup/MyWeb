@@ -1,0 +1,274 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  top: 0;
+  padding-top: 10px;
+  padding: 20px;
+  background-color: white;
+  position: fixed;
+  z-index: 100;
+}
+
+
+ul {
+  margin-right: 50px;
+  justify-content: end;
+  text-indent: 40px;
+  display: flex;
+  list-style-type: none;
+}
+
+span li {
+  cursor: pointer;
+  font-size: x-large;
+  display: flex;
+  margin-right: 750px;
+}
+
+/* MAIN */
+.img-span {
+  display: flex;
+}
+
+.intro {
+  margin-left: 50px;
+  margin-top: 150px;
+  font-size: x-large;
+}
+
+.img-1 {
+  margin-right: 100px;
+}
+
+img {
+  margin-top: 100px;
+  margin-left: 250px;
+  width: 500px;
+  height: 500px;
+}
+
+.your-story-text {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+  background-color: blue;
+  color: white;
+  margin-left: 50px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 40px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 50px;
+  font-size: x-large;
+}
+
+
+.plant-box {
+  display: flex;
+}
+
+.img-2 {
+  border-radius: 10px;
+}
+
+h3 {
+  margin-left: 50px;
+  color: blue;
+}
+
+.main-2 {
+  margin-top: 250px;
+}
+
+.intro-2 {
+  margin-top: 25px;
+  margin-left: 50px;
+}
+
+.main-text {
+  margin-top: 25px;
+  margin-left: 50px;
+}
+
+.colorButton {
+  background-color: grey;
+}
+
+.img-main {
+  margin-left: 175px;
+  margin-bottom: 200px;
+  display: grid;
+  grid-template-columns: repeat(3 , 1fr);
+}
+
+.Intro-3 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  color: blue;
+  display: flex;
+  justify-content: center;
+}
+
+.img-1-div {
+  text-align: center;
+  height: 200px;
+  width: 200px;
+}
+
+.img-2-div {
+  text-align: center;
+  height: 200px;
+  width: 200px;
+}
+
+.img-3-div {
+  text-align: center;
+  height: 200px;
+  width: 200px;
+}
+
+.main-3 {
+  color: navy;
+  margin-left: 700px;
+}
+
+.Expirements-text {
+  margin-top: 50px;
+  margin-left: 700px;
+}
+
+.intro-4 {
+  margin-top: 200px;
+  margin-left: 50px;
+}
+
+.repeated-text-1 {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.img-intro-1 {
+  margin-left: 50px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.img-maintext {
+  margin-left: 50px;
+}
+
+.grid-box {
+  display: grid;
+  grid-template-columns: repeat(2 , 1fr);
+}
+
+.grid-box img {
+  height: 300px;
+  width: 300px;
+}
+
+.letter-grid {
+  margin-top: 10px;
+  margin-left: 700px;
+  display: grid;
+  grid-template-columns: repeat(3 , 1fr);
+}
+
+.gird {
+  margin-top: 50px;
+  margin-left: 700px;
+  display: grid;
+  grid-template-columns: repeat(3 , 1fr);
+}
+
+.color-span {
+  display: flex;
+}
+
+footer{
+  background-color: black;
+  color: white;
+}
+
+.footer-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thumbs-up-box {
+  cursor: pointer;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgrey;
+  padding: 7px;
+}
+
+.thumbs-up-box:hover {
+  background-color: darkgray;
+}
+.thumbs-up {
+  color: black;
+  width: 50px;
+  height: 50px;
+}
+
+.intro-footer {
+  text-align: center;
+}
+
+.footer-grid {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-text {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.t-1 {
+  margin-top: 10px;
+}
+
+.t-2{
+  margin-top: 10px;
+}
+
+.t-3 {
+  margin-top: 10px;
+}
+
+.thumbs-up-2 {
+  height: 30px;
+  width: 30px;
+}
+
+.eye {
+  height: 30px;
+  width: 30px;
+}
+
+.chat {
+  height: 30px;
+  width: 30px;
+}

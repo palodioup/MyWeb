@@ -144,12 +144,10 @@ h3 {
 
 .main-3 {
   color: navy;
-  margin-left: 700px;
 }
 
 .Expirements-text {
   margin-top: 50px;
-  margin-left: 700px;
 }
 
 .intro-4 {
@@ -184,14 +182,12 @@ h3 {
 
 .letter-grid {
   margin-top: 10px;
-  margin-left: 700px;
   display: grid;
   grid-template-columns: repeat(3 , 1fr);
 }
 
 .gird {
   margin-top: 50px;
-  margin-left: 700px;
   display: grid;
   grid-template-columns: repeat(3 , 1fr);
 }
@@ -271,4 +267,71 @@ footer{
 .chat {
   height: 30px;
   width: 30px;
+}
+
+/* MEDIA QUERIES */
+
+
+@media only screen and (min-width : 576px) and (min-aspect-ratio : 7/4){
+  .img-intro-1 {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+  }
+  .img-maintext {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+  }
+  .grid-box {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+  }
+  .header {
+    position: relative;
+  }
+}
+
+@media only screen and (min-width : 320px) {
+    .img-intro-1 {
+      display: block;
+    }
+    .img-maintext {
+      display: block;
+    }
+    .grid-box {
+      display: block;
+    }
+    .img-main {
+      display: block;
+    }
+    .size-6 {
+      height: 50px;
+      width: 50px;
+    }
+    .plant-box {
+      display: block;
+    }
+    .img-2 {
+      min-width: 10%;
+    }
+    .img-1 {
+      min-width: 10%;
+    }
+}
+
+@media only screen and (min-width : 576px) {
+  .img-intro-1 {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+  }
+  .img-maintext {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+  }
+  .grid-box {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+  }
+  .header {
+    position: relative;
+  }
 }
